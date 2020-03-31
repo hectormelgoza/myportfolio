@@ -18,14 +18,14 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background-color: rgb(10, 123, 151);
+    background-color: #00b7ff;
 }
 h2{
     margin-left: 5.5%;
     margin-top: .3rem;
     font-size: 3.2rem;
     font-style: italic;
-    color: white;
+    color: #00b7ff;
     font-family: 'Arizonia', cursive;
     letter-spacing: .2rem;
 }
