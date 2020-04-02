@@ -14,33 +14,43 @@
     margin: auto;
 }
 .title-line{
-    margin-bottom: 0px;
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+
 }
 h2{
-    margin-left: 5.5%;
-    margin-top: .3rem;
-    font-size: 3.2rem;
+    margin-left: 7rem;
+    margin-bottom: .8rem;
+    margin-top: .5rem;
+    font-size: 2.8rem;
     font-style: italic;
     color: #00b7ff;
     font-family: 'Arizonia', cursive;
     letter-spacing: .2rem;
 }
 nav{
-    padding: 1.9rem;
+    margin-right: 7rem;
+
+
 }
 a{
-    margin-right: 24px;
+    margin-right: 12px;
+    padding: 0rem 1.5rem;
+
     font-size: 20px;
-    padding: .5rem 1.5rem;
     text-decoration: none;
     color: #00b7ff;
     font-family: 'Scada', sans-serif;
 }
-
+.github{
+    position: absolute;
+    margin-left: 3.5rem;
+    background-image: url(./images/github.svg);
+    width: 24px;
+    height: 24px;
+}
 .message-container{
     margin-top: 0px;
     height: 88vh;
