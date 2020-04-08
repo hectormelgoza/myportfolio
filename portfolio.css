@@ -70,40 +70,39 @@ p{
     font-size: 1.5rem;
     letter-spacing: .0005rem;
 }
-
-
 h1{
     margin-left: 10%;
     font-size: 4rem;
     color: white;
     font-family: 'Scada', sans-serif;
 }
-img{
+.man{
     margin-top: 1.2rem;
     margin-right: 7rem;
     color: white;
     width: 25rem;
-   
 }
 .img-container{
-    margin-top: 90px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
-    background-color: darkgray;
-    
+    width: 85%;
+    margin: auto;
+    margin-top: 3rem;
 }
-.html-img{
-    background-color: darkorange;
-    align-content: center;
+h4{
+    text-align: center;
+    font-size: 5rem;
 }
-.item{
-    background-color: rgb(95, 27, 27);
+img{
+    width: 13rem;
+    margin: 0rem 2rem;
+    padding: 2rem;
 }
+
 nav a:hover{
-    color: hsl(198, 100%, 90%);
+    color: hsl(0, 0%, 80%);
 }
 
 .nav a:active{
