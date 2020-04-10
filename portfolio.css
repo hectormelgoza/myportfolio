@@ -36,27 +36,28 @@ a{
     height: 24px;
 } */
 .message-container{
-    height: 70.9vh;
-    background-image: url(./images/Large-Triangles.svg);
-    background-size: contain;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
+    height: 96vh;
+    background: linear-gradient(to left,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./images/person-in-front-of-laptop-on-brown-wooden-table-2115217.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .msg{
-    width: 23rem;
-    background-color: rgb(188, 177, 72);
-    align-items: center;
+    /* background-color: rgb(201, 128, 55); */
+    width: 90%;
+    margin: auto;
+}
+.macy{
+    background-image: url(./images/person-in-front-of-laptop-on-brown-wooden-table-2115217.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-img, .mann{
-    width: 30%;
+h1{
+    font-size: 4rem;
     color: white;
-    background-color: deeppink;
-}
-img, .five{
-    padding: 8rem;
+    font-family: 'Scada', sans-serif;
 }
 p{ 
     color: white;
@@ -64,11 +65,7 @@ p{
     font-size: 1.5rem;
     letter-spacing: .0005rem;
 }
-h1{
-    font-size: 4rem;
-    color: white;
-    font-family: 'Scada', sans-serif;
-}
+
 .img-container{
     display: flex;
     flex-wrap: wrap;
