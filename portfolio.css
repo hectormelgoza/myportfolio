@@ -3,103 +3,80 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
-.contain{
-    width: 100%;
-    height: auto;
-    
-}
-.center{
-    width: 100%;
-    margin: auto;
-}
 .title-line{
     display: flex;
-    justify-content: space-between;
+    height: 3.5rem;
+    justify-content: right;
     align-items: center;
-    margin-bottom: 0px;
-
-}
-h2{
-    margin-left: 7rem;
-    margin-bottom: .8rem;
-    margin-top: .5rem;
-    font-size: 2.8rem;
-    font-style: italic;
-    color: #00b7ff;
-    font-family: 'Arizonia', cursive;
-    letter-spacing: .2rem;
+    width: 90%;
+    margin: auto;
 }
 nav{
-    margin-right: 7rem;
-
-
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    
 }
 a{
-    margin-right: 12px;
-    padding: 0rem 1.5rem;
-
+    width: 8rem;
+    padding: .4rem 0rem;
+    text-align: center;
     font-size: 20px;
     text-decoration: none;
     color: #00b7ff;
+    
     font-family: 'Scada', sans-serif;
 }
-.github{
+
+/* .github{
     position: absolute;
     margin-left: 3.5rem;
     background-image: url(./images/github.svg);
     width: 24px;
     height: 24px;
-}
+} */
 .message-container{
-    margin-top: 0px;
-    height: 89vh;
-    padding-left: 7rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 70.9vh;
     background-image: url(./images/Large-Triangles.svg);
     background-size: contain;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.msg{
+    width: 23rem;
+    background-color: rgb(188, 177, 72);
+    align-items: center;
+}
+
+img, .mann{
+    width: 30%;
+    color: white;
+    background-color: deeppink;
+}
+img, .five{
+    padding: 8rem;
 }
 p{ 
-    width: 23rem;
     color: white;
     font-family: 'Scada', sans-serif;
-    margin-top: .5rem;
-    margin-left: 10%;
     font-size: 1.5rem;
     letter-spacing: .0005rem;
 }
 h1{
-    margin-left: 10%;
     font-size: 4rem;
     color: white;
     font-family: 'Scada', sans-serif;
-}
-.man{
-    margin-top: 1.2rem;
-    margin-right: 7rem;
-    color: white;
-    width: 25rem;
 }
 .img-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 85%;
-    margin: auto;
     margin-top: 3rem;
 }
-h4{
-    text-align: center;
-    font-size: 5rem;
-}
-img{
-    width: 13rem;
-    margin: 0rem 2rem;
-    padding: 2rem;
-}
+
 
 nav a:hover{
     color: hsl(0, 0%, 80%);
