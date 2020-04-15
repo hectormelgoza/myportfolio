@@ -15,7 +15,7 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 30rem;
-    
+    /* background-color: lightpink; */
 }
 a{
     width: 8rem;
@@ -50,8 +50,6 @@ a{
 }
 .macy{
     background-image: url(./images/person-in-front-of-laptop-on-brown-wooden-table-2115217.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 } 
 
 h1{
@@ -93,7 +91,6 @@ nav a:hover{
     height: 92vh;
     width: 90%;
     margin: auto;
-    background-color: mediumaquamarine;
 }
 .web-item{
     margin-top: 3rem;
@@ -105,6 +102,18 @@ nav a:hover{
 
 .web-item:hover{
     box-shadow: 0px 1px 20px 1px rgba(186, 186, 186, 0.639);
+}
+.resume-container{
+    width: 90%;
+    margin: auto;
+    background-color: lightpink;
+}
+.resume{
+    background-image: url(./images/SoftwareEngineerResume.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1500px;
+    width: 100%;
 }
 /* @media only screen and (max-width: 70em){
     .image{
