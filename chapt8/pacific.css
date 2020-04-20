@@ -1,15 +1,16 @@
 body{
-    background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
-    background-color: #4F6D93;
+
+    background-color: rgb(172, 196, 227);
     background-repeat: no-repeat;
     color: #666666;
     font-family: sans-serif;
-    margin: 5rem 6rem;
+    margin: 0rem 0rem;
 }
 
 #wrapper{
-    margin: auto;
+    
     width: 80%;
+    margin: auto;
     background-color: #90C7E3;
     min-width: 960px;
     max-width: 2048px;
@@ -20,6 +21,7 @@ header{
     background-color: #000033;
     color: #FFFFFF;
     background-image: url(./images/sunset.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
     height: 60px;
@@ -106,7 +108,7 @@ footer{
 }
 
 #homehero{
-    height: 200px;
+    height:500px;
     background-image: url(./images/coasthero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -114,7 +116,7 @@ footer{
 }
 
 #yurthero{
-    height: 300px;
+    height: 500px;
     background-image: url(./images/yurthero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -122,7 +124,7 @@ footer{
 }
 
 #trailhero{
-    height: 300px;
+    height: 500px;
     background-image: url(./images/trailhero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
