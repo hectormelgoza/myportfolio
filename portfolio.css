@@ -53,7 +53,7 @@ a{
 } 
 
 h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: white;
     font-family: 'Scada', sans-serif;
 }
@@ -74,7 +74,6 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-
 }
 .item{
     padding: 2rem 2.5rem;
@@ -104,16 +103,24 @@ nav a:hover{
     box-shadow: 0px 1px 20px 1px rgba(186, 186, 186, 0.639);
 }
 .resume-container{
-    width: 90%;
-    margin: auto;
-    background-color: lightpink;
+    height: 39rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .resume{
-    background-image: url(./images/SoftwareEngineerResume.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1500px;
-    width: 100%;
+    margin-bottom: 6.8rem;
+    width: 9%;
+    background-color: rgb(80, 231, 156);
+    height: 17vh;
+    border-radius: .5rem;
+}
+h3{
+    color: #4f4f4f;
+    font-size: 3.5rem;
+    
 }
 /* @media only screen and (max-width: 70em){
     .image{
