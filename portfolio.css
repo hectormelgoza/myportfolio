@@ -120,7 +120,14 @@ nav a:hover{
 h3{
     color: #4f4f4f;
     font-size: 3.5rem;
-    
+}
+.footer{
+    color: white;
+    font-size: .8rem;
+    background-color: #4f4f4f;
+    font-family: 'Scada', sans-serif;
+    text-align: center;
+    padding: .5rem 0rem;
 }
 /* @media only screen and (max-width: 70em){
     .image{
