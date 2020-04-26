@@ -42,7 +42,9 @@ main{
 dt{
     color: #000033;
 }
-
+dd{
+    padding: 2rem 0rem;
+}
 nav{
     float: left;
     width: 190px;
@@ -96,7 +98,8 @@ h1{
 
 h3{
     font-family: Georgia;
-    color: #000033
+    color: #000033;
+    padding-bottom: 2rem;
 }
 
 
@@ -150,6 +153,7 @@ th, td{
 
 td{
     text-align: center;
+    padding: 2rem 0rem;
 }
 
 .text{
