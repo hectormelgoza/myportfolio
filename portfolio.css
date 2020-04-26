@@ -6,7 +6,7 @@
 .title-line{
     display: flex;
     height: 8vh;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
     width: 90%;
     margin: auto;
@@ -14,8 +14,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    width: 30rem;
-    /* background-color: lightpink; */
+    width: 28rem;
 }
 a{
     width: 8rem;
@@ -26,6 +25,10 @@ a{
     color: #4f4f4f;
     transition: .3ss ease;
     font-family: 'Scada', sans-serif;
+}
+nav > a{
+    border: .08rem solid #4f4f4f;
+    border-radius: .5rem;
 }
 
 /* .github{
@@ -41,10 +44,8 @@ a{
     background: linear-gradient(to left,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./images/person-in-front-of-laptop-on-brown-wooden-table-2115217.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .msg{
-    /* background-color: rgb(201, 128, 55); */
     width: 90%;
     margin: auto;
 }
