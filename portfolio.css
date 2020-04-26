@@ -108,14 +108,15 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   /*  background-color: rgb(88, 77, 77); */
 
 }
 .resume{
     margin-bottom: 6.8rem;
-    width: 9%;
+    width: 11rem;
     background-color: rgb(80, 231, 156);
-    height: 17vh;
     border-radius: .5rem;
+    padding-top: .4rem;
 }
 h3{
     color: #4f4f4f;
