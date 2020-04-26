@@ -11,7 +11,15 @@ body{
     font-family: sans-serif;
     margin: 0rem 0rem;
 }
-
+p{
+    padding: 0rem 0rem 2rem 0rem;
+}
+ul{
+    padding-bottom: 2rem;
+}
+li{
+    padding-bottom: .3rem;
+}
 #wrapper{
     width: 80%;
     margin: auto;
