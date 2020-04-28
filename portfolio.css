@@ -58,6 +58,16 @@ h1{
     color: white;
     font-family: 'Scada', sans-serif;
 }
+h4{
+    color: #4f4f4f;
+    font-family: 'Scada', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .0005rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 p{ 
     color: #4f4f4f;
     font-family: 'Scada', sans-serif;
