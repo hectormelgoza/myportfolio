@@ -26,10 +26,7 @@ a{
     transition: .3ss ease;
     font-family: 'Scada', sans-serif;
 }
-nav > a{
-    border: .08rem solid #4f4f4f;
-    border-radius: .5rem;
-}
+
 
 /* .github{
     position: absolute;
