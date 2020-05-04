@@ -41,7 +41,7 @@ a >.git-pic{
 } */
 .message-container{
     display: flex;
-    height: 92vh;
+    height: 93.3vh;
     background: linear-gradient(to left,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./images/person-in-front-of-laptop-on-brown-wooden-table-2115217.jpg);
     background-size: cover;
     background-repeat: no-repeat;
