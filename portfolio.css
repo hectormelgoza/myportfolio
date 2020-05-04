@@ -5,22 +5,17 @@
 }
 .title-line{
     display: flex;
-    height: 8vh;
-    justify-content: left;
-    align-items: center;
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 nav{
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 36rem;
-    height: 2.9rem;
+    justify-content: space-between;
+    width: 28rem;
 }
 a{
-    width: 8rem;
-    padding: .4rem 0rem;
+    width: 9rem;
     text-align: center;
     font-size: 20px;
     text-decoration: none;
@@ -28,11 +23,15 @@ a{
     transition: .3ss ease;
     font-family: 'Scada', sans-serif;
 }
-img, .git-pic{
-    margin-top: .4rem;
+.gitter{
+    margin-left: auto;
+    width: 5rem;
 }
-
-
+a >.git-pic{
+    margin-left: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
 /* .github{
     position: absolute;
     margin-left: 3.5rem;
