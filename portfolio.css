@@ -48,8 +48,7 @@ a >.git-pic{
     background-color: lawngreen;
 }
 .msg{
-    width: 84%;
-    margin: auto;
+    margin-left: 6rem;
 }
 .sub-msg{
     width: 70%;
