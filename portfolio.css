@@ -12,25 +12,18 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 28rem;
+    width: 40%;
+    margin-right: 57%;
 }
 a{
-    width: 9rem;
-    text-align: center;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #4f4f4f;
-    transition: .3ss ease;
+    transition: .288s ease;
     font-family: 'Scada', sans-serif;
 }
-.gitter{
-    margin-left: auto;
-    width: 5rem;
-}
-a >.git-pic{
-    margin-left: 1.6rem;
-    display: flex;
-    justify-content: center;
+a > .git-pic{
+    float: right;
 }
 /* .github{
     position: absolute;
@@ -46,7 +39,6 @@ a >.git-pic{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .sub-msg{
     color: white;
     font-family: 'Scada', sans-serif;
@@ -55,7 +47,7 @@ a >.git-pic{
     width: 74%;
 }
 .message{
-    width: 82%;
+    width: 90%;
     margin: auto;
 }
 .macy{
