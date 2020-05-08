@@ -5,7 +5,7 @@
 }
 .title-line{
     display: flex;
-    width: 90%;
+    width: 85%;
     margin: auto;
 }
 nav{
@@ -47,7 +47,7 @@ a > .git-pic{
     width: 74%;
 }
 .message{
-    width: 90%;
+    width: 85%;
     margin: auto;
 }
 .macy{
@@ -85,7 +85,11 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 .item{
     padding: 2rem 2.5rem;
