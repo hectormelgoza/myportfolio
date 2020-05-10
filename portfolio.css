@@ -97,6 +97,7 @@ p{
 
 nav a:hover{
     color: hsl(0, 0%, 80%);
+    font-size: 1.4rem;
 }
 
 /* website css */
