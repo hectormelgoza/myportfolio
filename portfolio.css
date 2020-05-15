@@ -50,9 +50,9 @@ a > .git-pic{
     width: 85%;
     margin: auto;
 }
-.macy{
+/* .macy{
     background-image: url(./images/person-in-front-of-laptop-on-brown-wooden-table-2115217.jpg);
-} 
+}  */
 
 h1{
     font-size: 4rem;
@@ -69,7 +69,7 @@ h4{
     align-items: center;
     height: 100%;
 }
-h5{
+h5{text-align: center;
     color: #4f4f4f;
     font-family: 'Scada', sans-serif;
     font-size: 2.2rem;
@@ -155,235 +155,18 @@ h3{
     text-align: center;
     padding: .5rem 0rem;
 }
-/* @media only screen and (max-width: 70em){
-    .image{
-        background-image: url(./images/LineDrawingManComputer.svg);
-        background-size: cover;
-        position: absolute;
-        top: 8.5rem;
-        right: 10%;
-        color: white;
-        width: 25rem;
-        height: 25rem;
-    }
-
-    h2{
-        font-size: 2.7rem;
-    }
- 
-    h1{
-        font-size: 3.2rem;
-    }
-
-    p{
-        font-size: 1.3rem;
-    }
-
-    a{
-        font-size: 18px
-    }
-    h3{
-        font-size: 2.9rem;
-    }
-    input{
-        font-size: 1.2rem;
-        display: inline-block;
-        height: 1.7rem;
-        width: 80%;
-        margin-bottom: 50px;
-        border-radius: 10px;
-        font-family: 'Scada', sans-serif;
-    }
-    .contain{
-        background-image: url(images/new.png);
-        background-size: 100%;
-    }
-    
-    #cover{
-        z-index: -500;
-        background-image: url(./images/background.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 70%;
-    }
-} */
-
-/* @media only screen and (max-width: 88em){
-    .contact{
-        position: absolute;
-        top: 70rem;
-        margin-left: 25.5%;
-        width: 50%;
-        height: 50px;
-    }
-    form{
-        height: 625px;
-    }
-
-    .footer{
-        background-image: url(./images/new.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 128rem;
-        background-color: rgb(188, 143, 143);
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-        color: white;
-        padding: 30px;
-    }
-    #cover{
-        z-index: -500;
-        position: absolute;
-        top: 220px;
-        background-image: url(./images/background.svg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 850px;
-    }
+@media only screen and (min-width: 81em){
+  .img-container{
+      width: 1100px;
+      margin: auto;
+  }
+  .message{
+    width: 1100px;
+    margin: auto;
+  }
+  .title-line{
+    width: 1100px;
+    margin: auto;
+  }
 }
- */
-/* @media only screen and (max-width: 65em){
-    .image{
-        display: none;
-    }
 
-    h2{
-        margin-left: 0px;
-        display: block;
-        margin-top: 150px;
-        font-size: 2.7rem;
-        text-align: center;
-    }
- 
-    h1{
-        margin-left: 0px;
-        text-align: center;
-        margin-top: rem;
-        font-size: 3.2rem;
-        display: block;
-        color: white;
-        font-family: 'Scada', sans-serif;
-    }
-
-    p{
-        font-size: 1.3rem;
-        display: inline-block;
-        width: 100%;
-        margin-left: 0px;
-        text-align: center;
-    }
-    .nav{
-        width: 100%;
-        margin-left: 0px;
-        top: 22px;
-        display: block;
-        text-align: center;
-        
-    }
-    a{
-        font-size: 14.2px;
-    }
-    h3{
-        font-size: 2.9rem;
-    }
-    input{
-        font-size: 1.2rem;
-        display: inline-block;
-        height: 1.7rem;
-        width: 80%;
-        margin-bottom: 50px;
-        border-radius: 10px;
-        font-family: 'Scada', sans-serif;
-    }
-
-    .contact{
-        position: absolute;
-        top: 75rem;
-        margin-left: 25.5%;
-        width: 50%;
-    }
-    .contain{
-        background-image: url(images/new.png);
-        background-size: 100%;
-        height: 800px;
-        width: 100%;
-        display: inline-block;
-    }
-    
-    #cover{
-        z-index: -500;
-        position: absolute;
-        top: 220px;
-        background-image: url(./images/background.svg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 1300px;
-    }
-} */
-
-/* @media only screen and (max-width: 49.4em){
-    .footer{
-        background-image: url(./images/new.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 125rem;
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-        color: white;
-        padding: 30px;
-    }
-
-    input[type="submit"]{
-        width: 50%;
-        margin-left: 40%;
-        margin-top: 8%;
-    }
-    .contact{
-        position: absolute;
-        top: 70rem;
-        margin-left: 25.5%;
-        width: 50%;
-    }
-} */
-
-/* @media only screen and (max-width: 37em){
-
-    .footer{
-        background-image: url(./images/new.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 125rem;
-        background-color: rgb(188, 143, 143);
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-        color: white;
-        padding: 30px;
-    }
-
-    input[type="submit"]{
-        width: 50%;
-        margin-left: 40%;
-        margin-top: 8%;
-    }
-    .contact{
-        position: absolute;
-        top: 70rem;
-        margin-left: 25.5%;
-        width: 50%;
-    }
-    p{
-        font-size: 1.3rem;
-        display: inline-block;
-        text-align: center;
-        padding: 0px 50px;
-    }
-}
- */
