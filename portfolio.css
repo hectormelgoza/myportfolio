@@ -25,13 +25,6 @@ a{
 a > .git-pic{
     float: right;
 }
-/* .github{
-    position: absolute;
-    margin-left: 3.5rem;
-    background-image: url(./images/github.svg);
-    width: 24px;
-    height: 24px;
-} */
 .message-container{
     display: flex;
     height: 98vh;
@@ -50,10 +43,6 @@ a > .git-pic{
     width: 85%;
     margin: auto;
 }
-/* .macy{
-    background-image: url(./images/person-in-front-of-laptop-on-brown-wooden-table-2115217.jpg);
-}  */
-
 h1{
     font-size: 4rem;
     color: white;
@@ -155,6 +144,9 @@ h3{
     text-align: center;
     padding: .5rem 0rem;
 }
+.dropdown{
+    display: none;
+}
 @media only screen and (min-width: 81em){
   .img-container{
       width: 1100px;
@@ -173,6 +165,57 @@ h3{
     nav{
         display: none;
     }
+    .title-line{
+        width: 85%;
+        margin: auto;
+        justify-content: space-between;
+      }
+     /* Dropdown Button */
+.dropbtn {
+    margin-top: 3.5px;
+    background-color: white;
+    color: white;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-top: .123rem;
+    min-width: 160px;
+
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #4f4f4f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #4f4f4f;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;} 
 }
 @media only screen and (max-width: 50em){
     .message{
