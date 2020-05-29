@@ -68,10 +68,11 @@ h5{
     font-family: 'Scada', sans-serif;
     font-size: 2.25rem;
     letter-spacing: .0005rem;
-    width: 85%;
+    width: 90%;
     margin: auto;
     height: 100%;
     margin-top: 2rem;
+    background-color: magenta;
 }
 p{ 
     color: #4f4f4f;
@@ -93,9 +94,11 @@ p{
     margin: auto;
     margin-bottom: 2rem;
     padding: 2.8rem;
+    background-color: lightcoral;
 }
 .item{
     padding: 2rem 2.5rem;
+    background-color: mediumblue;
 }
 
 nav a:hover{
@@ -146,6 +149,7 @@ h3{
     font-size: 2.25rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    margin-bottom: 3rem;
 }
 .footer{
     color: white;
