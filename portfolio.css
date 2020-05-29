@@ -27,6 +27,7 @@ a{
 }
 a > .git-pic{
     float: right;
+    padding: .5rem;
 }
 .message-container{
     display: flex;
@@ -109,7 +110,7 @@ nav a:hover{
     justify-content: space-evenly;
     width: 90%;
     margin: auto;
-    border-top: .15rem solid #4f4f4f;
+    border-top: .05rem solid #4f4f4f;
 }
 .web-item{
     margin-top: 3rem;
@@ -129,7 +130,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     padding: 3rem 0rem;
-    border-top: .15rem solid #4f4f4f;
+    border-top: .05rem solid #4f4f4f;
 }
 .resume{
     width: 11rem;
@@ -213,7 +214,7 @@ h3{
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-      margin-top: 6.57px;
+    margin-top: .442rem;
     display: none;
     position: absolute;
     background-color: white;
