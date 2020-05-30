@@ -10,6 +10,7 @@ html {
     display: flex;
     width: 85%;
     margin: auto;
+    padding: .5rem;
 }
 nav{
     display: flex;
@@ -244,8 +245,14 @@ h3{
     .message{
         text-align: center;
     }
+
     .sub-msg{
         margin: auto;
+        color: red;
+        font-family: 'Scada', sans-serif;
+        font-size: 1.5rem;
+        padding: 2rem 0rem;
+       
     }
 }
 
