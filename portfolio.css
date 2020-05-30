@@ -68,12 +68,10 @@ h5{
     color: #4f4f4f;
     font-family: 'Scada', sans-serif;
     font-size: 2.25rem;
-    letter-spacing: .0005rem;
     width: 90%;
     margin: auto;
-    height: 100%;
-    margin-top: 2rem;
-    background-color: magenta;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
 }
 p{ 
     color: #4f4f4f;
@@ -94,14 +92,10 @@ p{
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
-    padding: 2.8rem;
-    background-color: lightcoral;
 }
 .item{
     padding: 2rem 2.5rem;
-    background-color: mediumblue;
 }
-
 nav a:hover{
     color: hsl(0, 0%, 80%);
     font-size: 1.4rem;
@@ -109,7 +103,6 @@ nav a:hover{
 
 /* website css */
 .web-container{
-    height: 90vh;
     display: flex;
     justify-content: space-evenly;
     width: 90%;
@@ -118,7 +111,7 @@ nav a:hover{
 }
 .web-item{
     margin-top: 3rem;
-    width: 25rem;
+    width: 40%;
     height: 13rem;
     border-radius: .5rem;
     transition: .3s ease;
@@ -133,7 +126,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0rem;
+    padding: 4.5rem 0rem;
     border-top: .05rem solid #4f4f4f;
 }
 .resume{
@@ -143,23 +136,22 @@ nav a:hover{
     padding-top: .4rem;
 }
 h3{
+    font-family: 'Scada', sans-serif;
     width: 90%;
     margin: auto;
     color: #4f4f4f;
     text-align: center;
     font-size: 2.25rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4.5rem;
 }
 .footer{
+    margin-top: 4.5rem;
     color: white;
     font-size: .8rem;
     background-color: #4f4f4f;
     font-family: 'Scada', sans-serif;
     text-align: center;
     padding: .5rem 0rem;
-    margin-top: 3rem;
 }
 .dropdown{
     display: none;
@@ -198,6 +190,7 @@ h3{
      /* Dropdown Button */
 .dropbtn {
     background-image: url(/images/hammy.svg);
+    background-repeat: no-repeat;
     background-color:white;
     padding: 16px;
     border: none;
@@ -248,11 +241,18 @@ h3{
 
     .sub-msg{
         margin: auto;
-        color: red;
+        color: white;
         font-family: 'Scada', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.5rem;        min-width: 95%;
         padding: 2rem 0rem;
-       
+    }
+    .web-container{
+        display: block;
+    }
+    .web-item{
+        width:65%;
+        margin: auto;
+        margin-top: 4.5rem;
     }
 }
 
