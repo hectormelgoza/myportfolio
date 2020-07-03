@@ -10,7 +10,7 @@ html {
     display: flex;
     width: 85%;
     margin: auto;
-    padding: .5rem;
+    padding: 1rem;
 }
 nav{
     display: flex;
