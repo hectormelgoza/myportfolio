@@ -213,7 +213,7 @@ header, main, nav, footer, figcaption, aside, section,article {display: block;}
 @media only screen and (max-width: 64em){
     body{
     margin: 0px;
-    background-color: #ffffff;
+    background-color: chartreuse;
     }
 
     #wrapper{
