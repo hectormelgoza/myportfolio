@@ -10,6 +10,9 @@ body{
     font-family: sans-serif;
     margin: 0rem 0rem;
 }
+.msg-container{
+    width: 68%;
+}
 p{
     padding: 0rem 0rem 2rem 0rem;
 }
@@ -35,10 +38,9 @@ header{
 main{
     background-color: white;
     margin-left: 190px;
-    padding: 1px 20px 20px 30px;
     display: block;
+    padding: 0rem 2rem;
 }
-
 dt{
     color: #000033;
 }
@@ -54,7 +56,7 @@ nav{
 
 nav ul{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 nav a{
@@ -78,7 +80,6 @@ nav a:visited{
 nav a:hover{
     color: #FFFFFF;
 }
-
 h2{
     color: #3399CC;
     font-family: Georgia;
@@ -114,6 +115,7 @@ footer{
 
 #contact{
     font-size: 90%;
+margin-top: 2rem;
 }
 
 #homehero{
@@ -143,6 +145,7 @@ footer{
 table{
     border: 1px solid #3399CC;
     width: 80%;
+    margin: auto;
     border-spacing: 0px;
 }
 
@@ -210,20 +213,20 @@ input[type="submit"]{
     }
     main{
         margin-left: 0px;
-        background-color: cyan;
     }
     nav{
+        float: none;
+        width: 100%;
+        margin:auto;
+    }
     
-        background-color: cornflowerblue;
+    table{
+        background-color: fuchsia;
+        width: 100%;
     }
-
-    nav li{
-        background-color: darkblue;
-    }
-
     #homehero, #yurthero, #trailhero{
-        margin: 0px;
-        height: 200px;
+        width: 100%;
+        margin: auto;
     }
 
     footer{
@@ -235,27 +238,15 @@ input[type="submit"]{
     header{
         padding-top: 1em;
     }
-
+    .msg-container{
+        width: 85%;
+    }
     main{
-        padding: 0.1em 1em;
+        padding: 0.1em 3rem;
         font-size: 90%;
     }
-
     h1{
         font-size: 1.5em;
-    }
-
-    nav{
-        padding: 0px;
-    }
-
-    nav li{
-        display: block;
-        margin: 0px;
-    }
-
-    nav a{
-        display: block;
     }
 
     #homehero, #yurthero, #trailhero{
